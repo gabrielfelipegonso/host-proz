@@ -1,10 +1,5 @@
 /* Estilos reutilizáveis em toda a página*/
-:root { /*Variáveis - paleta de cores*/
-  --white: #f0f8ff;
-  --black: #0f0f0f;
-  --dark-green: #295546;
-  --light-green: #70DAAA;
-}
+
 *{ /*Definição inicial para todos os componentes*/
     padding: 0;
     margin: 0;
