@@ -25,3 +25,10 @@
    padding: auto;
 
 }
+.pacotes{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    height: 37vw;
+}
