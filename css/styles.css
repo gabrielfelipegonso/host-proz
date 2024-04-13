@@ -28,6 +28,7 @@
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
+    flex-direction: column !important;
 }
 .button-white{
     background-color: var(--white);
@@ -55,6 +56,9 @@
 }
 .hover-up:hover{
     transform: translateY(-5px);
+}
+.shadow{
+       box-shadow: 0 0 8px 1px #000003;
 }
 /* HEADER */
 #logo-header{
