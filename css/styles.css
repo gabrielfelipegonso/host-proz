@@ -60,6 +60,9 @@
 .shadow{
        box-shadow: 0 0 4px 1px var(--dark-green);
 }
+.overlay-green-20op{
+     background-color:var(--dark-green-20op);
+}
 /* HEADER */
 #logo-header{
     width: 5vw;
