@@ -58,7 +58,7 @@
     transform: translateY(-5px);
 }
 .shadow{
-       box-shadow: 0 0 8px 1px #000003;
+       box-shadow: 0 0 4px 1px var(--dark-green);
 }
 /* HEADER */
 #logo-header{
