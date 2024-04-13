@@ -8,38 +8,34 @@
         <title>HostProz - Noticias</title>
         <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
 
-     
-        <section>
-             <header>
+        <header class="flex-row-space-between bg-color-dark-green">
+                <a href="index.html"><img id="logo-header" class="hover-up" src = "assets/img/logo.png"></img></a>
+      
+                <nav class="flex-row-center gap-2-vw"> 
+                    <button type="button" class="cursor-pointer display-none">
+                        Menu
+                        <i></i>
+                    </button>
+			
+                    <ul class="flex-row-center gap-2-vw list-none">
+			
 
-              <section>
-                <header>
-
-                <a href="index.html"><span><img src = "assets/img/logo.png"></img></span></a>
-               <nav> 
-                <div>
-                    <ul>
-			<li><button type="button">
-                    Menu
-                    <i></i>
-                </button>
-			</li>
-                        <li ><a href="index.html">Home</a></li>
-                        <li><a  href="quem-somos.html">Quem Somos</a></li>
-	      <li><a  href="noticias.html">Notícias</a></li>
-	      <li><a href="servicos.html">Serviços</a></li>
+                        <li class="hover-up"><a href="index.html" >Home</a></li>
+                        <li class="hover-up"><a  href="quem-somos.html" >Quem Somos</a></li>
+	                    <li class="hover-up"><a  href="noticias.html" >Notícias</a></li>
+	                    <li class="hover-up"><a href="servicos.html" >Serviços</a></li>
                     </ul>
-                    <a href="Contato.html"><button>
-                        <span align-items-center">
-                            <span>Contato</span>
-                        </span>
-                    </button></a>
-                </div>
+                    
+                    <a href="contato.html"><button class="button-white cursor-pointer hover-up" id="contato-nav">Contato</button></a>
+            
+                
 		       </nav>
-                 </header>
+        </header>
+        
 
       
      <section>
@@ -64,36 +60,39 @@
                     <img src="assets/img/word.jpg"></img>
                 </div>
                      </article>
-	<div>
-                    <div>
-                        <h2>China lança androide com chip de IA</h2>
-                        <img src="assets/img/robo.jpg"></img>
-                    </div>
-                    <div>
-                        <h2>Cientistas criam vírus para desestabilizar IA criadora de imagens</h2>
-                        <img src="assets/img/desenho.jpg"></img>
-                    </div>
-                    <div>
-                        <h2>HostProz chega à 2,5 bi de valor de mercado</h2>
-                        <img src="assets/img/dinheiro.jpg"></img>
-                    </div>
-                    <div>
-                        <h2>A nova moda dos "Influenciadores" IA</h2>
-                        <img src="assets/img/ia.jpg"></img>
-                    </div>
-                </div>
-            </div>
+	
+<div class="container">
+    <div class="news">
+        <h2>China lança androide com chip de IA</h2>
+        <img src="assets/img/robo.jpg" class="img" alt="androide"></img>
+    </div>
+    <div class="news">
+        <h2>Cientistas criam vírus para desestabilizar IA criadora de imagens</h2>
+        <img src="assets/img/desenho.jpg" class="img" alt="vírus"></img>
+    </div>
+    <div class="news">
+        <h2>HostProz chega à 2,5 bi de valor de mercado</h2>
+        <img src="assets/img/dinheiro.jpg" class="img" alt="dinheiro"></img>
+    </div>
+    <div class="news">
+        <h2>A nova moda dos "Influenciadores" IA</h2>
+        <img src="assets/img/ia.jpg" class="img" alt="IA"></img>
+    </div>
+</div>
+
         </section>
 	    <section>
        <footer>
             <div >
 				<div >
 					<div >
-				<img src="assets/img/logo.png" alt="Hostproz">
+
+				<img src="assets/img/logo.png" alt="Hostproz" id="footer-logo">
 					</div>
 					<div >
 						<div>
-							<div>&copy; HostProz 2024.</div>
+							<div id = "copyright">&copy; HostProz 2024.</div>
+
 						</div>
 					</div>
 				</div>
