@@ -6,6 +6,7 @@ body {
 }
 
 /* Estilos da seção principal */
+
 /* Estilos da seção */
 section {
     padding: 20px;
@@ -30,6 +31,14 @@ p {
 }
 
 /* Estilos das imagens */
+
+img {
+    width: calc(10vw - 2px); 
+    height: 15vh;
+    padding-top: 8px;
+    padding-bottom: 8px; 
+ }
+
 span {
     display: inline-block;
     width: 100px; /* Ajuste conforme necessário */
