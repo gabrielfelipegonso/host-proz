@@ -29,6 +29,41 @@
     display: flex;
     justify-content: space-between;
 }
+/* MAIN - PACOTES DE SERVIÇOS */
 main{
     height: 37vw;
+}
+.card-pacotes{
+    background-color: var(--light-green);
+    height: 90%;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 0 0 0;
+    border-radius: 1vw;
+    overflow: hidden;
+}
+.card-pacotes h2{
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    color: var(--light-green);
+    background-color: var(--black);
+    border-radius: 5vw;
+
+}
+.card-pacotes a{
+    background-color: var(--black);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    text-decoration: none;
+    color: var(--light-green);
+
 }
