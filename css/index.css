@@ -54,6 +54,24 @@ main{
     color: var(--light-green);
     background-color: var(--black);
     border-radius: 5vw;
+    font-size: 2vw;
+    cursor: default;
+
+
+}
+.card-pacotes ul{
+
+    width: 90%;
+
+
+}
+.card-pacotes ul li{
+    font-size: 1.2vw;
+    text-align: center;
+    margin-bottom: 0.5vw;
+    cursor: default;
+
+
 
 }
 .card-pacotes a{
@@ -65,5 +83,10 @@ main{
     height: 5vw;
     text-decoration: none;
     color: var(--light-green);
+    transform: 0.5s;
+}
+.card-pacotes a:hover{
+    background-color: var(--dark-green);
+   
 
 }
