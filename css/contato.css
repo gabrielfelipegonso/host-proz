@@ -1,7 +1,8 @@
-.formulario { 
+.formulario{ 
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 30px 30px;
 }
 
 label {
@@ -11,3 +12,8 @@ label {
   input, textarea, select {
     text-align: left; 
   }
+
+p{
+
+  margin: 10px 0px;
+}
