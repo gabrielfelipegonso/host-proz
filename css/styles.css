@@ -91,7 +91,7 @@ nav ul li a:hover{
     font-size: 1.1vw ;
 }
 
-/* FOOTER */
+/* FOOTER 
 
 #footer-logo{
    width: 3vw;    
@@ -101,8 +101,21 @@ nav ul li a:hover{
 
 #copyright{
    float: right;
-   padding-top: 30px;   
-} */
+   padding-top: 30px;
+ 
+}
+*/
 
+footer {
+    background-color: #70DAAA; 
+    color: var(--white); 
+    padding: 20px;
+}
 
+#footer-logo {
+    width: 3vw;
+}
 
+#copyright{
+    float: right;
+ }
