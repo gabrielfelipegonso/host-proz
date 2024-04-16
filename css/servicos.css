@@ -45,14 +45,6 @@ p {
     padding-bottom: 8px; 
  }
 
-span {
-    display: inline-block;
-    width: 100px; /* Ajuste conforme necessário */
-    height: 100px; /* Ajuste conforme necessário */
-    background-color: #ddd; /* Cor de fundo padrão para as imagens */
-    margin-right: 10px;
-}
-
 /* Adiciona um pouco de espaço entre os elementos */
 section > div > div > div > div {
     margin-bottom: 20px;
