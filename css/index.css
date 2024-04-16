@@ -246,5 +246,30 @@ main{
   font-size: 8vw;
   color: var(--light-green);
 }
+/* Verifica domínio */
+#verifica-dominio-section{
+    max-width: 100vw;
+   
+}
+#verifica-dominio-container{
+    height: 60vw;
+    gap: 7vw;
 
+}
+#verifica-dominio-container input{
+    width: 80%;
+    height: 5vw;
+    font-size: 3.5vw;
+    border-radius: 2vw;
+    
+}
+#verifica-dominio-container button{
+    width: 75%;
+    height: 6vw;
+    font-size: 4vw;
+    
+}
+#verifica-dominio-container button:hover{
+    background-color: var(--black);
+ 
 }
