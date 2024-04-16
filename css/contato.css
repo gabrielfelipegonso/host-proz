@@ -1,28 +1,53 @@
-.formulario{ 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
+h3{
+  text-align: center;
+}
+section{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 92%;  
+  
 }
 
-label {
-    text-align: right; 
-  }
-  
-  input, textarea, select {
-    text-align: left; 
-  }
+form{
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form div {
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+form input{
+
+  outline: unset;
+  padding: 3px;
+  width: 200px;
+  border: 1px solid ;
+  border-radius: 5px;
+
+}
+
+#buton{
+  color: #ffffff;
+  background-color: var(--light-green);
+  cursor: pointer;
+  border: 1px solid rgb(153, 153, 153);
+}
 
 h1{
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 p{
-  margin: 10px 0px;
+  margin: 5px;
 }
-#formu{
 
-  text-align: center;
-  margin-bottom: -30px;
+#formu{
   margin-top: 30px;
 }
+
