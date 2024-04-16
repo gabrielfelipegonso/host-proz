@@ -14,25 +14,25 @@ body{
 /* CLASSES REUTILIZÁVEIS */
 
 .flex-row-center{/*Display flex linha*/
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
 }
 .flex-row-space-around{
-     display: flex !important;
-    align-items: center !important;
-    justify-content: space-around !important;
+     display: flex ;
+    align-items: center;
+    justify-content: space-around ;
 }
 .flex-row-space-between{
-     display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
+     display: flex ;
+    align-items: center ;
+    justify-content: space-between ;
 }
 .flex-colunm-center{/*Display flex coluna*/
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    flex-direction: column !important;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    flex-direction: column ;
 }
 .button-white{
     background-color: var(--white);
@@ -94,6 +94,7 @@ nav ul li a:hover{
 }
 
 
+
 /* FOOTER */
 footer{
   display: flex;
@@ -109,4 +110,37 @@ footer{
 footer p {
     color: var(--black) !important;
     font-size: 1.6vw;
+}
+
+@media only screen and (max-width: 467px) {
+
+/* CELULARES - NAV BAR - FOOTER */
+    header nav,
+    header ul{
+        flex-direction: column;
+       
+    }
+    header ul li,
+    nav a{
+         display: none;
+    }
+    #menu-encolhido
+    {
+    display: block;
+    font-size:1.7vw;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    header nav button{
+        width: 12vw;
+        height: 3vw;
+        background-color: var(--black);
+        color: var(--light-green);
+        border-radius: 2vw;
+        outline: none;
+        border: none;
+    }
+
 }

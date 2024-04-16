@@ -168,3 +168,57 @@ main{
   font-size: 4vw;
   color: var(--light-green);
 }
+@media only screen and (max-width: 467px) {
+    button{
+        outline: none;
+        border: none;
+    }
+    /* banner */
+    #banner{
+      background-size:contain;
+
+    }
+     /*Main*/
+     main{
+        height: auto;
+        flex-wrap: wrap;
+
+     }
+     .card-pacotes{
+    background-color: var(--light-green);
+    height: 95vw;
+    width: 88vw;
+    margin: 6vw 0;
+ 
+}  .card-pacotes:hover{
+    
+}
+.card-pacotes h2{
+    height: 30vw;
+   
+    width: 30vw;
+ 
+    border-radius: 30vw;
+    font-size: 4vw;
+   
+
+
+}
+.card-pacotes ul li{
+    font-size: 3.2vw;
+   
+
+
+
+}
+.card-pacotes a{
+   
+    width: 100%;
+    height: 10vw;
+    font-size: 2.5vw;
+}
+.card-pacotes a:hover{
+ 
+
+}
+}
