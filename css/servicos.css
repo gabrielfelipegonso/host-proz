@@ -6,34 +6,60 @@ body {
 
 /* Estilos da seção principal */
 
+main{   
+    color: #295546;
+    padding-top: 16px;
+    padding-left: 12px;
+    width: 900px;
+    margin: 0 auto;
+}
+
 /* Estilos da seção */
-section {
-    padding: 20px;
+
+section{
+    display: flex;
+}
+
+section div{
+    background-image: url("./../assets/img/light-green.jpg");
+    padding: 24px;
+    height: 300px;
+    width: 300px;
+    border-radius: 16px;
+    margin-right: 16px;
 }
 
 /* Estilos dos títulos */
-h2 {
-    color: #295546;
-    font-size: 24px;
-    margin-bottom: 10px;
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
 }
 
-h4 {
-    color: #0f0f0f;
-    font-size: 18px;
-    margin-bottom: 5px;
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    
 }
+
+h3{
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+h4{
+    font-size: 1rem;
+    margin-bottom: 12px;
+}
+
 
 /* Estilos dos parágrafos */
 p {
-    color: #70DAAA;
-    margin-bottom: 10px;
-}
-
-#p1 {
-    color: #f0f8ff;
-    background-color: #2CC762;
-    margin-bottom: 0px;
+    font-size: 1rem;
+    margin-bottom: 12px;
 }
 
 /* Estilos das imagens */
@@ -44,8 +70,3 @@ p {
     padding-top: 8px;
     padding-bottom: 8px; 
  }
-
-/* Adiciona um pouco de espaço entre os elementos */
-section > div > div > div > div {
-    margin-bottom: 20px;
-}
