@@ -120,7 +120,7 @@ footer p {
     font-size: 1.6vw;
 }
 
-@media only screen and (max-width: 467px) {
+@media only screen and (max-width: 900px) {
 
 /* CELULARES - NAV BAR - FOOTER */
     header nav,
@@ -129,7 +129,7 @@ footer p {
        
     }
     #logo-header{
-        width: 20vw;
+        width: 14vw;
     }
     header ul li,
     nav a{
@@ -162,7 +162,7 @@ footer p {
     header nav button span
    
     {
-       font-size: 10px;
+       font-size: 4.5vw;
        
     }
 }
