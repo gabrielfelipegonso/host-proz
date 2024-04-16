@@ -10,32 +10,27 @@
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link rel="stylesheet" href="css/styles.css">
          <link rel="stylesheet" href="css/noticias.css">
+          <script defer src="https://kit.fontawesome.com/94c17993fc.js" crossorigin="anonymous"></script>
+        <script defer src="scripts/scritps.js"></script>
+         
     </head>
     <body>
 
-        <header class="flex-row-space-between bg-color-dark-green">
-                <a href="index.html"><img id="logo-header" class="hover-up" src = "assets/img/logo.png"></img></a>
-      
+ <header class="flex-row-space-between bg-color-dark-green">
+                <a href="index.html"><img id="logo-header"  src = "assets/img/logo.png"></img></a>
                 <nav class="flex-row-center gap-2-vw"> 
-                    <button type="button" class="cursor-pointer display-none">
-                        Menu
-                        <i></i>
+                    <button type="button" onclick="handleClickMenuHeader()" class="cursor-pointer display-none" id="menu-encolhido">
+                       <i class="fa-solid fa-bars"></i> <span> Menu</span> 
                     </button>
-			
                     <ul class="flex-row-center gap-2-vw list-none">
-			
-
-                        <li class="hover-up"><a href="index.html" >Home</a></li>
-                        <li class="hover-up"><a  href="quem-somos.html" >Quem Somos</a></li>
-	                    <li class="hover-up"><a  href="noticias.html" >Notícias</a></li>
-	                    <li class="hover-up"><a href="servicos.html" >Serviços</a></li>
+                        <li class="menu-header-hide" ><a href="index.html"  onclick="handleClickMenuHeader()" >Home</a></li>
+                        <li  class="menu-header-hide" ><a  href="quem-somos.html" onclick="handleClickMenuHeader()" >Quem Somos</a></li>
+	                    <li  class="menu-header-hide" ><a  href="noticias.html"  onclick="handleClickMenuHeader()" >Notícias</a></li>
+	                    <li  class="menu-header-hide" ><a href="servicos.html"  onclick="handleClickMenuHeader()" >Serviços</a></li>
                     </ul>
-                    
-                    <a href="contato.html"><button class="button-white cursor-pointer hover-up" id="contato-nav">Contato</button></a>
-            
-                
+                    <a class="menu-header-hide" href="contato.html"><button class="button-white cursor-pointer hover-up shadow" id="contato-nav">Contato</button></a>
 		       </nav>
-        </header>
+    </header>
         
 
       
@@ -62,25 +57,27 @@
                 </div>
                      </article>
 	
-<div class="container">
-    <div class="news">
-        <h2>China lança androide com chip de IA</h2>
-        <img src="assets/img/robo.jpg" class="img" alt="androide"></img>
-    </div>
-    <div class="news">
-        <h2>Cientistas criam vírus para desestabilizar IA criadora de imagens</h2>
-        <img src="assets/img/desenho.jpg" class="img" alt="vírus"></img>
-    </div>
-    <div class="news">
-        <h2>HostProz chega à 2,5 bi de valor de mercado</h2>
-        <img src="assets/img/dinheiro.jpg" class="img" alt="dinheiro"></img>
-    </div>
-    <div class="news">
-        <h2>A nova moda dos "Influenciadores" IA</h2>
-        <img src="assets/img/ia.jpg" class="img" alt="IA"></img>
-    </div>
-</div>
+<div class="flex-row-space-around">
+        
+                    <div class="card-pacotes shadow">
+				    <h2>China lança androide com chip de IA</h2>
+             <img src="assets/img/robo.jpg" class="img"></img>     </div>
 
+<div class="card-pacotes shadow">
+				    <h2>Cientistas criam vírus para desestabilizar IA criadora de imagens</h2>
+             <img src="assets/img/desenho.jpg" class="img"></img>      </div>
+
+<div class="card-pacotes shadow">
+				    <h2>HostProz chega à 2,5 bi de valor de mercado</h2>
+             <img src="assets/img/dinheiro.jpg" class="img"></img>      </div>
+
+<div class="card-pacotes shadow">
+				    <h2>A nova moda dos "Influenciadores" IA</h2>
+             <img src="assets/img/ia.jpg" class="img"></img>      </div>
+
+</div>
+                        
+                  
         </section>
 	   
         <footer>
