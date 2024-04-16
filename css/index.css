@@ -171,9 +171,9 @@ main{
   font-size: 4vw;
   color: var(--light-green);
 }
-/*  RESPONSIVIDADE PARA CELULAR */
+/*  RESPONSIVIDADE PARA CELULAR E TABLET*/
 
-@media only screen and (max-width: 467px) {
+@media only screen and (max-width: 900px) {
     button{
         outline: none;
         border: none;
