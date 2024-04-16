@@ -176,6 +176,7 @@ main{
     /* banner */
     #banner{
       background-size:contain;
+      background-position: center;
 
     }
      /*Main*/
