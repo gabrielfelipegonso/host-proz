@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/index.css">
-        
+        <script defer src="https://kit.fontawesome.com/94c17993fc.js" crossorigin="anonymous"></script>
     </head>
     <body id="page-top">
         
@@ -84,51 +84,44 @@
                
     </main>
         
-        
-        <section>
-            <div >
+        <div id="verifica-dominio-section">
+            <article  class="flex-colunm-center shadow gap-2-vw" id="verifica-dominio-container">
+            <h2>Confira a disponibilidade do domínio:</h2>
+         
+            <input type="text" id="dominio">
+            <button class="hover-up" onclick="verificarDominio()">Verificar</button>
+       </article>
+                  
+        </div>
+       
+
+        <section id="beneficios-container">
+           
                 <div>
-                    <div>
-                        <h2>Tradição em hospedagem.</h2>
-                        <p>Hospedando seu site desde 2005. Apesar da idade somos bem modernos e fornecemos armazenamento para nossos clientes em SSD que proporciona um site mais rápido.</p>
-						<a href="servicos.html" >Descubra como contratar.</a>
-                    </div>
-                    <div>
-                        <div><span>imagem</span></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <section>
-            <div>
-                <div>
+                    <i class="fa-solid fa-clock"></i>
 					<h2>Apoio total 24h</h2>
-					<p>Nossa equipe técnica está disponível via chat para lhe atender 24 horas por dia, todos os dias inclusive feriados.</p>
+					<p>Nossa equipe técnica está disponível via chat para lhe atender 24 horas por dia.</p>
                 </div>
 
-				<div>
+				
                     <div>
-						<span>icone</span>
+                        <i class="fa-solid fa-shield-halved"></i>
                         <h2>Certificado SSL gratuito.</h2>
                         <p>Ao contratar qualquer pacote nosso você recebe o certificado SSL gratuitmente</p>
                     </div>
                     <div>
-                        <span>icone</span>
+                        <i class="fa-solid fa-globe"></i>
                         <h2>Domínio gratuito</h2>
-                        <p>Fornecemos como brinde 1 ano do dominio da sua escolha (.com ou .com.br).</p>
+                        <p>Fornecemos como brinde 1 ano do dominio da sua escolha (.com).</p>
                     </div>
                     <div>
-                        <span>icone</span>
+                        <i class="fa-solid fa-envelope"></i>
                         <h2>Servidor de email incluso</h2>
-                        <p>Nossos pacotes incluem email - Consulte número de conta e capacidade de cada uma em: <a href="servicos.html">Pacotes</a></p>
-                        <a href="servicos.html">
-                            <b>Contrate nosso serviço
-                            <i></i></b>
-                        </a>
+                        <p>Nossos pacotes incluem email - Consulte número de conta e capacidade.</p>
+                      
                     </div>
-                </div>
-            </div>
+                
+           
         </section>
 <!-- 			Seções que podem ser exploradas a medida que criamos conteúdo para o site:	
         <section>
@@ -162,20 +155,12 @@
         </section> -->
     
         <footer>
-            <div >
-				<div >
-					<div >
+            
 
 				<img src="assets/img/logo.png" alt="Hostproz" id="footer-logo">
-					</div>
-					<div >
-						<div>
-							<div id = "copyright">&copy; HostProz 2024.</div>
-
-						</div>
-					</div>
-				</div>
-            </div>
+				<p>&copy; HostProz 2024.</p>
+							
+				
         </footer>
   
     </body>

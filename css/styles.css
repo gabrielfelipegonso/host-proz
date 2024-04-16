@@ -8,6 +8,7 @@
 }
 body{
     background-color: var(--white);
+    max-width: 100vw;
 }
 
 /* CLASSES REUTILIZÁVEIS */
@@ -72,6 +73,7 @@ body{
 }
 header{
     padding: 0.4vw 1.5vw;
+    max-width: 100vw;
 }
 
 nav ul li a{
@@ -91,6 +93,24 @@ nav ul li a:hover{
     font-size: 1.1vw ;
 }
 
+<<<<<<< HEAD
+/* FOOTER */
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 2vw;
+  max-width: 100vw;
+  background-color: var(--light-green);
+}
+#footer-logo{
+    width: 5vw;
+}
+footer p {
+    color: var(--black) !important;
+    font-size: 1.6vw;
+}
+=======
 /* FOOTER 
 
 #footer-logo{
@@ -119,3 +139,4 @@ footer {
 #copyright{
     float: right;
  }
+>>>>>>> 76655224257ef39e6d9649eebff850ac58de9b08
