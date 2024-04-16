@@ -1,4 +1,5 @@
 /* BANNER */
+
 #banner{
     height: 40vw;
     background-image: url('../assets/img/bg-banner-index.jpg');
@@ -70,6 +71,7 @@ main{
     text-align: center;
     margin-bottom: 0.5vw;
     cursor: default;
+    flex-wrap: wrap;
 
 
 
@@ -84,9 +86,48 @@ main{
     text-decoration: none;
     color: var(--light-green);
     transform: 0.5s;
+    font-size: 1.5vw;
 }
 .card-pacotes a:hover{
     background-color: var(--dark-green);
    
 
+}
+
+/* Verifica domínio */
+
+#verifica-dominio-container{
+    height: 25vw;
+    width: 95vw;
+    margin: auto;
+    background-color: var(--light-green);
+    border-radius: 3vw;
+}
+#verifica-dominio-container input{
+    width: 30%;
+    height: 2.5vw;
+    font-size: 2vw;
+    border-radius: 0.5vw;
+    text-align: center;
+}
+#verifica-dominio-container button{
+    width: 25%;
+    height: 3vw;
+    color: var(--light-green);
+    background-color: var(--black);
+    border-radius: 1.5vw;
+    transform: 0.5s;
+    cursor: pointer;
+    font-size: 1.8vw;
+}
+#verifica-dominio-container button:hover{
+    background-color: var(--dark-green);
+   
+
+}
+#verifica-dominio-container h2{
+    font-size: 4vw;
+}
+#beneficios-container{
+    
 }
