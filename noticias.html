@@ -13,29 +13,21 @@
     </head>
     <body>
 
-        <header class="flex-row-space-between bg-color-dark-green">
-                <a href="index.html"><img id="logo-header" class="hover-up" src = "assets/img/logo.png"></img></a>
-      
+ <header class="flex-row-space-between bg-color-dark-green">
+                <a href="index.html"><img id="logo-header"  src = "assets/img/logo.png"></img></a>
                 <nav class="flex-row-center gap-2-vw"> 
-                    <button type="button" class="cursor-pointer display-none">
-                        Menu
-                        <i></i>
+                    <button type="button" onclick="handleClickMenuHeader()" class="cursor-pointer display-none" id="menu-encolhido">
+                       <i class="fa-solid fa-bars"></i> <span> Menu</span> 
                     </button>
-			
                     <ul class="flex-row-center gap-2-vw list-none">
-			
-
-                        <li class="hover-up"><a href="index.html" >Home</a></li>
-                        <li class="hover-up"><a  href="quem-somos.html" >Quem Somos</a></li>
-	                    <li class="hover-up"><a  href="noticias.html" >Notícias</a></li>
-	                    <li class="hover-up"><a href="servicos.html" >Serviços</a></li>
+                        <li class="menu-header-hide" ><a href="index.html"  onclick="handleClickMenuHeader()" >Home</a></li>
+                        <li  class="menu-header-hide" ><a  href="quem-somos.html" onclick="handleClickMenuHeader()" >Quem Somos</a></li>
+	                    <li  class="menu-header-hide" ><a  href="noticias.html"  onclick="handleClickMenuHeader()" >Notícias</a></li>
+	                    <li  class="menu-header-hide" ><a href="servicos.html"  onclick="handleClickMenuHeader()" >Serviços</a></li>
                     </ul>
-                    
-                    <a href="contato.html"><button class="button-white cursor-pointer hover-up" id="contato-nav">Contato</button></a>
-            
-                
+                    <a class="menu-header-hide" href="contato.html"><button class="button-white cursor-pointer hover-up shadow" id="contato-nav">Contato</button></a>
 		       </nav>
-        </header>
+    </header>
         
 
       
