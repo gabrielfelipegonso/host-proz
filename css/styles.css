@@ -59,7 +59,7 @@ body{
     display: none;
 }
 .hover-up:hover{
-    transform: translateY(-5px);
+   
 }
 .shadow{
        box-shadow: 0 0 4px 1px var(--dark-green);
@@ -84,15 +84,23 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: var(--white);
+    transform: translateY(-5px);
+}
+nav ul li:hover{
+
+    transform: translateY(-5px);
 }
 #contato-nav{
     width: 6vw;
     height: 2.7vw;
     border: none;
+    outline: none;
     border-radius: 1vw;
     font-size: 1.1vw ;
 }
-
+#contato-nav:hover{
+    transform: translateY(-5px);
+}
 
 
 /* FOOTER */
@@ -120,6 +128,9 @@ footer p {
         flex-direction: column;
        
     }
+    #logo-header{
+        width: 20vw;
+    }
     header ul li,
     nav a{
          display: none;
@@ -134,13 +145,24 @@ footer p {
         flex-direction: column;
     }
     header nav button{
-        width: 12vw;
-        height: 3vw;
+        width: 50vw;
+        height: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
         background-color: var(--black);
         color: var(--light-green);
         border-radius: 2vw;
         outline: none;
         border: none;
+       
     }
-
+    header nav button i,
+    header nav button span
+   
+    {
+       font-size: 10px;
+       
+    }
 }
