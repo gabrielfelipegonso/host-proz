@@ -93,6 +93,7 @@ nav ul li a:hover{
     font-size: 1.1vw ;
 }
 
+<<<<<<< HEAD
 /* FOOTER */
 footer{
   display: flex;
@@ -109,3 +110,33 @@ footer p {
     color: var(--black) !important;
     font-size: 1.6vw;
 }
+=======
+/* FOOTER 
+
+#footer-logo{
+   width: 3vw;    
+   padding-top: 30px;   
+   float: left;
+}
+
+#copyright{
+   float: right;
+   padding-top: 30px;
+ 
+}
+*/
+
+footer {
+    background-color: #70DAAA; 
+    color: var(--white); 
+    padding: 20px;
+}
+
+#footer-logo {
+    width: 3vw;
+}
+
+#copyright{
+    float: right;
+ }
+>>>>>>> 76655224257ef39e6d9649eebff850ac58de9b08
