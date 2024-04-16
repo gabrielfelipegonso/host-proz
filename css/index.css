@@ -137,6 +137,9 @@ main{
 #verifica-dominio-container h2{
     font-size: 4vw;
 }
+
+/* Benefícios */
+
 #beneficios-container{
   
     margin-top: 3vw;
@@ -168,6 +171,8 @@ main{
   font-size: 4vw;
   color: var(--light-green);
 }
+/*  RESPONSIVIDADE PARA CELULAR */
+
 @media only screen and (max-width: 467px) {
     button{
         outline: none;
@@ -222,4 +227,24 @@ main{
  
 
 }
+/* BENEFÍCIOS */
+
+#beneficios-container div{
+  
+    width: 88vw;
+    height: 35vw;
+    
+}
+#beneficios-container div h2{
+    font-size: 5vw;
+}
+#beneficios-container div p{
+    font-size: 3vw;
+    text-align: center;
+}
+#beneficios-container div i{
+  font-size: 8vw;
+  color: var(--light-green);
+}
+
 }
