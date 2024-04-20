@@ -1,53 +1,201 @@
-h3{
-  text-align: center;
-}
-section{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 92%;  
-  
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 100%;
+    height: 550px;
+    max-width: 820px;
+    background: #70DAAA;
+    border-radius: 20px;
+    box-shadow: 0 0  20px 10px rgba(0, 0, 0, .4);
+    overflow: hidden;
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+
+}
+.contact{
+    background: rgb(255, 255, 255);
+    
+}
+.submit-form{
+    background: #70DAAA;
+}
+/*.first-text{
+    color: #70DAAA;
+    padding: 20px;
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+*/
+.image{
+    
+    height:  300px;
+    width: 300px;
+    margin: auto;
+    
+    
+}
+.item2{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 550px;
+}
+.social-media{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top:  -130px; 
+}
+ul li{
+    padding: 15px;
+    font-size: 24px;
+    margin-top: 10px;
+    list-style: none;
+}
+i {
+    background-color: #70DAAA;
+    padding: 3px;
+    border-radius: 5px;
+    transition: .3s;
+    color: aliceblue;
+}
+.social-media i:hover {
+
+    background: white;
+    color: #70DAAA;
+}
+.social-media{
+    text-decoration:  #fff;
+    
+}
+.second-text{
+    font-weight: 500;
+    color: #70DAAA;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.third-text{
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding-top: 10px;
+    color: #fff;
+}
 form{
-
-  font-family: Arial, Helvetica, sans-serif;
+    padding: 0 50px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
-
-form div {
-
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
-
-form input{
-
-  outline: unset;
-  padding: 3px;
-  width: 200px;
-  border: 1px solid ;
-  border-radius: 5px;
+.input-box{
+    height: 40px;
+    width: 70%;
+    margin: 30px 0;
+    position: relative;
 
 }
 
-#buton{
-  color: #ffffff;
-  background-color: var(--light-green);
-  cursor: pointer;
-  border: 1px solid rgb(153, 153, 153);
+.input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    transition: .3s;
+}
+.input-box .input:focus ~ label,
+.input-box .input:valid ~ label{
+
+    top: -1px;
+    left: 10px;
+    background: #70DAAA;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 5px;
 }
 
-h1{
-  margin-top: 5px;
+
+textarea.input{
+
+    resize: none;
+    min-height: 150px;
+    overflow: auto;
+    padding-top: 10px;
+    
 }
 
-p{
-  margin: 5px;
+.btn{
+
+    position: relative;
+    top: 100px;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 45px;
+    width: 30%;
+    font-size: 13px;
+    color: #70DAAA;
+    cursor: pointer;
+    font-weight: 500;
+
 }
 
-#formu{
-  margin-top: 30px;
-}
+@media (max-width:850px){
 
+    .item{
+        grid-template-columns: 1fr;
+    }
+
+.contact{
+    display: none;
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+}
+.btn{
+
+    width: 25%;
+    height: 40px;
+    font-size: 12px;
+
+}
+}
