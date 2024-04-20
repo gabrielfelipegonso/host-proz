@@ -174,7 +174,10 @@ textarea.input{
 }
 
 @media (max-width:850px){
-
+.container{
+   width: 87vw;
+   margin: auto;
+}
     .item{
         grid-template-columns: 1fr;
     }
