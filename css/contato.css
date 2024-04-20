@@ -6,14 +6,9 @@
     font-family: "poppins";
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
+
 .container{
-    position: relative;
+   
     width: 100%;
     height: 100vh;
     background: rgb(255, 255, 255);
@@ -69,13 +64,13 @@ body{
     align-items: center; 
     margin-top:  -130px; 
 }
-ul li{
+.social-links ul li{
     padding: 15px;
     font-size: 24px;
     margin-top: 10px;
     list-style: none;
 }
-i {
+.social-links ul li i {
     background-color: #70DAAA;
     padding: 3px;
     border-radius: 5px;
