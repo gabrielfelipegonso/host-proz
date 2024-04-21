@@ -98,18 +98,18 @@
     position: relative;
     top: 20px;
     left: 20px;
-   
+    margin-top: 20px;
     color: #fff;
 }
 .submit-form form{
     display: flex;
     flex-direction: column;
-   
     align-items: center;
     gap: 1px;
     height: 100%;
     width: 100%;
     overflow: hidden;
+    margin-top: 30px;
 }
 .input-box{
     height: 40px;
@@ -224,6 +224,4 @@ textarea.input{
     margin-top: 0;
 
 }
-
-
 }
