@@ -5,12 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="/host-proz/css/contato.css">
-    <link rel="stylesheet" href="/host-proz/css/styles.css">
+    <script defer src="./scripts/scritps.js"></script>
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="https://kit.fontawesome.com/94c17993fc.js" crossorigin="anonymous"></script>
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="/host-proz/assets/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
+
         <header class="flex-row-space-between bg-color-dark-green">
                 <a href="index.html"><img id="logo-header"  src = "assets/img/logo.png"></img></a>
                 <nav class="flex-row-center gap-2-vw"> 
@@ -26,12 +33,14 @@
                     <a class="menu-header-hide" href="contato.html"><button class="button-white cursor-pointer hover-up shadow" id="contato-nav">Contato</button></a>
 		       </nav>
     </header>
-    <div class="container">
-        <div class="item">
-            <div class="contact">
-                <!--<div class="first-text">Contato</div> -->
+
+
+    <div class="container-geral">
+        <div class="card-principal">
+            <div class="contacts">
+              
                 <div class="item2">
-                    <img src="/host-proz/assets/img/contaoimg.png" alt="" class="image"></div>
+                    <img src="./assets/img/contaoimg.png" alt="" class="image"></div>
                 <div class="social-links">
                     
                     <ul class="social-media">
@@ -42,31 +51,39 @@
                     </ul>
                 </div>
             </div>
-                <div class="submit-form">
+            <main>
                     <h4 class="third-text text">Contate-nos</h4>
                     <form action="">
                         <div class="input-box">
-                            <input type="name" placeholder="Nome" class="input" required>
-                            <label for="">Nome</label>
+                           
+                            <input type="name"  class="input" placeholder="Nome" required>
+                            
                         </div>
                         <div class="input-box">
-                            <input type="email" placeholder="E-mail" class="input" required>
-                            <label for="">E-mail</label>
+                            <input type="email"  class="input" placeholder="E-mail" required>
+                            
                         </div>
                         <div class="input-box">
-                            <input type="tel" placeholder="Cel / Tel" class="input" required>
-                            <label for="">Cel / Tel</label>
+                          
+                            <input type="tel" class="input" placeholder="Cel/Tel" required>
+                            
                         </div>
                         <div class="input-box">
-                            <textarea name="" placeholder="Mensagem" class="input"  required cols="30" rows="10"></textarea>
-                            <label for="">Mensagem</label>
+                           
+                            <textarea name="" class="input"  placeholder="Mensagem" required cols="30" rows="10"></textarea>
+                           
                         </div>
                         <input type="submit" value="Enviar" class="btn">
                     </form>
-                </div>
+            
+            </main>
+
+          
         </div>
     </div>
+
       
+   
         <footer>
             
 
