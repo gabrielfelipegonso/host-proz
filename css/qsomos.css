@@ -22,6 +22,37 @@ p {
      font-size: 1.2rem;
 }
 
+@media only screen and (max-width: 768px) {
+  
+
+ 
+  h1 {
+    font-size: 4vw;
+    height: auto;
+    padding: 10px;
+  }
+
+  
+  p {
+    padding: 10px;
+  }
+
+
+  #fundo {
+    height: auto;
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  
+
+
+  h1 {
+    font-size: 5vw;
+  }
+}
+
 
 #fundo{
     background: url("../assets/img/dados.png") fixed  center/contain no-repeat;
