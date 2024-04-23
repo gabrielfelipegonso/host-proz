@@ -1,0 +1,30 @@
+h1 {
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-bottom: 10px;
+     font-size: 1.2rem;
+     display: flex;
+     justify-content: center; 
+     align-items: center; 
+     height: 40vh;
+     margin: 0; 
+     flex-shrink: 1;
+     color: var(--light-green);
+     font-size: 6vw;
+     font-family: "Jersey 20", sans-serif;
+}
+
+
+p {
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-bottom: 10px;
+     font-size: 1.2rem;
+}
+
+
+#fundo{
+    background: url("../assets/img/dados.png") fixed  center/contain no-repeat;
+    background-size: cover;
+    height: 40vh;
+ }
