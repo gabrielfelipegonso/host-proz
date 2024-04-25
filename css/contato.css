@@ -57,6 +57,7 @@ main{
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    border-radius: 2vw;
 
 }
 .input-box{
@@ -201,8 +202,6 @@ main{
     gap: 15vw;
     height: 80%;
     align-items: center;
-    
-
 }
 .image{
     width: 15vw;
