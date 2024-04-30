@@ -12,9 +12,14 @@
     <link rel="stylesheet" href="./css/contato.css">
     <link rel="stylesheet" href="./css/styles.css">
     <script defer src="https://kit.fontawesome.com/94c17993fc.js" crossorigin="anonymous"></script>
-
+ <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+  <script  src="./scripts/jquery-mask.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="/host-proz/assets/img/favicon.ico" type="image/x-icon">
+    <script defer src="scripts/validacao-form.js"></script>
 </head>
 <body>
 
@@ -60,13 +65,16 @@
                             
                         </div>
                         <div class="input-box">
-                            <input type="email"  class="input" placeholder="E-mail" required>
+                            <input type="email" id="email"  class="input" placeholder="E-mail" required>
                             
                         </div>
                         <div class="input-box">
                           
-                            <input type="tel" class="input" placeholder="Cel/Tel" required>
-                            
+                            <input type="tel" class="input phone_with_ddd" placeholder="Cel/Tel" required>
+                            <div class="flex-row-center" id="tel-cel-container">
+                                <input type="radio" class="radio" id="telefone"name="tel-cel" ><label>Telefone</label>
+                                <input type="radio" class="radio" id="celular" name="tel-cel" checked><label>Celular</label>
+                            </div>
                         </div>
                         <div class="input-box">
                            

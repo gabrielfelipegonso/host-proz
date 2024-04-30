@@ -75,12 +75,12 @@ main{
     margin: 0 auto;
     background-color: var(--light-green);
     color: var(--white);
-    font-size: 2vw;
+    font-size: 1.5vw;
     border: solid 1px var(--white);
 }
 .input-box input{
     width: 87%;
-    height: 2vw;
+    height: 2.5vw;
    
 }
 .input-box textarea{
@@ -176,7 +176,18 @@ main{
       text-align: center;
       font-size: 1.3vw;
     }
-    
+    .radio{
+      width: 20px !important; 
+            height: 20px !important;
+            margin: 0 2vw 0 2vw !important;
+    }
+    #tel-cel-container{
+      margin-top: 1vw;
+    }
+    #tel-cel-container label{
+      font-size: 1.5vw;
+      color: var(--white);
+    }
     @media only screen and (max-width: 900px) {
         .container-geral{
 
