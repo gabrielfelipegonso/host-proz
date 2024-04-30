@@ -33,7 +33,7 @@ let celular = () =>{
 let telefone = () =>{
  for (let phone of phones){
   phone.addEventListener('change',  () =>{
-        if(phone.value.length < 14){
+        if(phone.value.length < 13){
        phone.style.border = 'solid 3px red';
     }else{
         phone.style.border = 'solid 1px var(--white)';

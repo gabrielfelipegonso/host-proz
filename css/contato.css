@@ -307,6 +307,9 @@ main form .input-box{
       font-size: 3vw;
     }
     
- 
+  #tel-cel-container label{
+      font-size: 4vw;
+      color: var(--white);
+    }
 
     }
