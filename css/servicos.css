@@ -2,30 +2,33 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: var(--white);
+    color: var(--dark-green);
 }
 
 /* Estilos da seção principal */
 
 main{   
-    color: #295546;
-    padding-top: 16px;
-    padding-left: 12px;
-    width: 900px;
+    padding: 20px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 /* Estilos da seção */
 
-section{
+.section {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-section div{
-    background-image: url("./../assets/img/light-green.jpg");
-    padding: 24px;
-    height: 300px;
-    width: 300px;
-    border-radius: 16px;
+section div {
+    background-color: var(--light-green);
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
     margin-right: 16px;
 }
 
@@ -34,7 +37,9 @@ section div{
 h1{
     display: flex;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--dark-green);
 }
 
 h2{
@@ -42,17 +47,22 @@ h2{
     justify-content: center;
     font-size: 1.5rem;
     margin-bottom: 20px;
-    
+    text-align: center;
+    color: var(--dark-green);
 }
 
 h3{
     font-size: 1.2rem;
     margin-bottom: 12px;
+    text-align: center;
+    color: var(--dark-green);
 }
 
 h4{
     font-size: 1rem;
     margin-bottom: 12px;
+    text-align: center;
+    color: var(--dark-green);
 }
 
 
@@ -65,8 +75,50 @@ p {
 /* Estilos das imagens */
 
 .img {
-    width: calc(10vw - 2px); 
-    height: 15vh;
-    padding-top: 8px;
-    padding-bottom: 8px; 
+    width: 100%;
+    height: auto;
  }
+
+ /* Media Queries para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    /* Estilos para telas menores */
+    h1 {
+        font-size: 2rem;
+    }
+
+    section div {
+        width: 100%; /* Ocupa toda a largura em dispositivos pequenos */
+    }
+
+    /* Ajustes no menu e header */
+    header {
+        padding: 10px;
+    }
+
+    #logo-header {
+        width: 100px; /* Tamanho menor para o logo */
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    #menu-encolhido {
+        display: block;
+        font-size: 1rem;
+    }
+
+    #contato-nav {
+        width: 100%;
+        font-size: 1rem;
+    }
+}
