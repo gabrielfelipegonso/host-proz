@@ -17,4 +17,3 @@ function handleClickMenuHeader(){
     }
  
 }
-$('.input-link').mask('http://A');
