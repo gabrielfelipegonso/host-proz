@@ -1,8 +1,9 @@
 
 .img {
-   width: 100%; 
-   height: 75%;
-   
+   min-width: 100%; 
+   max-width: 100%; 
+   min-height: 200px; 
+   max-height: 200px;    
 }
 
 h3{
@@ -19,16 +20,12 @@ article {
     padding-left: 23px;
 }
 
-#word-img{
-   padding-top: 20px; 
-   padding-bottom: 5px;
-   width: 70vw;
-}
-
 
 .flex-row-space-around{
     height: 37vw;
-    max-width: 100vw;
+    max-width: 80%;
+    min-width: 80%;
+    padding-left: 200px;
 }
 
 .card-pacotes{
@@ -51,6 +48,7 @@ article {
     align-items: center;
     font-size: 2vw;
     cursor: default;
+    
 }
 
 h2{
@@ -95,6 +93,7 @@ h2{
     flex-direction: column;
     align-items: center;
     height: auto;
+    padding-left: 80px;
   }
 
   .card-pacotes {
