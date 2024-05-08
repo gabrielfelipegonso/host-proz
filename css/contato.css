@@ -232,12 +232,12 @@ main form .input-box{
 }
 .input-box input{
     width: 87%;
-    height: 5vw;
+    height: 7vw;
     font-size: 3.5vw;
    
 }
 .input-box textarea{
-   height: 15vw;
+   height: 18vw;
    font-size: 3.5vw;
    resize: none;
     width: 87%;
