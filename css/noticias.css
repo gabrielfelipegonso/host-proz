@@ -82,7 +82,7 @@ h2{
 .content {
   padding: 20px 50px 0px 40px;
   transform: translate3d(0, 0, 26px);
-  min-height: 18vw;
+  height: 18vw;
   max-height: 300px;
   display: flex;
   flex-direction: column;
@@ -286,4 +286,44 @@ h2{
   .bottom .view-more .view-more-button {
     font-size: 8px;
   }
+}
+.news-container{
+  width: 95vw;
+  border-top: solid 1px gray;
+  border-bottom: solid 1px gray;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.news-card{
+  width: 280px;
+  height:  300px;
+  border: solid 1px lightseagreen;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.img-card-container{
+    flex: 3;
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-card-container img{
+   width: 90%;
+}
+.text-card-container{
+  flex: 1;
+}
+.text-card-container h3{
+  text-align: center;
+}
+.text-card-container a{
+  text-decoration: none;
+ 
 }
