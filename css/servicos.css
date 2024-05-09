@@ -22,6 +22,7 @@ main{
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
+    padding: auto;
 }
 
 section div {
@@ -38,7 +39,7 @@ section div {
 h1{
     display: flex;
     justify-content: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: center;
     color: var(--dark-green);
     padding: 15px;
@@ -47,15 +48,15 @@ h1{
 h2{
     display: flex;
     justify-content: center;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-bottom: 20px;
     text-align: center;
     color: var(--dark-green);
-    padding: 15px;
+    padding: 10px;
 }
 
 h3{
-    font-size: 1.2rem;
+    font-size: 0.4;
     margin-bottom: 12px;
     text-align: center;
     color: var(--dark-green);
@@ -63,17 +64,17 @@ h3{
 }
 
 h4{
-    font-size: 1rem;
-    margin-bottom: 12px;
+    font-size: 0.6rem;
+    margin-bottom: 15px;
     text-align: center;
     color: var(--dark-green);
-    padding: 15px;
+    padding: 5px;
 }
 
 
 /* Estilos dos parágrafos */
 p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -89,7 +90,20 @@ p {
 @media only screen and (max-width: 768px) {
     /* Estilos para telas menores */
     h1 {
-        font-size: 1.8rem;
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+    }
+    h3 {
+        font-size: 0.4rem;
+    }
+    h4 {
+        font-size: 0.4rem;
+    }
+    p {
+        font-size: 0.4rem;
     }
 
     section div {
