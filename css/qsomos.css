@@ -38,10 +38,7 @@ p {
   }
 
 
-  #fundo {
-    height: auto;
-    background-size: contain;
-  }
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -54,11 +51,7 @@ p {
 }
 
 
-#fundo{
-    background: url("../assets/img/dados.png") fixed  center/contain no-repeat;
-    background-size: cover;
-    height: 40vh;
- }
+
 
 
 
@@ -78,10 +71,7 @@ p {
   }
 
 
-  #fundo {
-    height: auto;
-    background-size: contain;
-  }
+ 
 }
 
 @media only screen and (max-width: 576px) {
