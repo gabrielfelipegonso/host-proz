@@ -28,6 +28,7 @@ section div {
     background-color: var(--light-green);
     padding: 20px;
     width: 100%;
+    height: 350px;
     border-radius: 10px;
     margin-right: 16px;
 }
@@ -37,18 +38,20 @@ section div {
 h1{
     display: flex;
     justify-content: center;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     text-align: center;
     color: var(--dark-green);
+    padding: 15px;
 }
 
 h2{
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 20px;
     text-align: center;
     color: var(--dark-green);
+    padding: 15px;
 }
 
 h3{
@@ -56,6 +59,7 @@ h3{
     margin-bottom: 12px;
     text-align: center;
     color: var(--dark-green);
+    padding: 15px;
 }
 
 h4{
@@ -63,27 +67,29 @@ h4{
     margin-bottom: 12px;
     text-align: center;
     color: var(--dark-green);
+    padding: 15px;
 }
 
 
 /* Estilos dos parágrafos */
 p {
     font-size: 1rem;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 /* Estilos das imagens */
 
 .img {
     width: 100%;
-    height: auto;
+    height: 130px;
  }
 
  /* Media Queries para dispositivos móveis */
 @media only screen and (max-width: 768px) {
     /* Estilos para telas menores */
     h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     section div {
