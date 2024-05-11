@@ -82,4 +82,14 @@ h2{
 
 
 
+@media (max-width: 1024px) {
+    .news-card {
+        width: 30%; 
+    }
+}
 
+@media (max-width: 768px) {
+    .news-card {
+        width: 45%;
+    }
+}
