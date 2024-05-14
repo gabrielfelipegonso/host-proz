@@ -64,8 +64,8 @@ h3{
 }
 
 h4{
-    font-size: 0.6rem;
-    margin-bottom: 15px;
+    font-size: 0.8rem;
+    margin-top: 18px;
     text-align: center;
     color: var(--dark-green);
     padding: 5px;
@@ -90,20 +90,20 @@ p {
 @media only screen and (max-width: 768px) {
     /* Estilos para telas menores */
     h1 {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 
     h2 {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     h3 {
-        font-size: 0.4rem;
+        font-size: 0.9rem;
     }
     h4 {
-        font-size: 0.4rem;
+        font-size: 0.7rem;
     }
     p {
-        font-size: 0.4rem;
+        font-size: 0.7rem;
     }
 
     section div {
@@ -117,6 +117,7 @@ p {
 
     #logo-header {
         width: 100px; /* Tamanho menor para o logo */
+        margin-right: 0;
     }
 
     nav ul {
