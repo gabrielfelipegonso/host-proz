@@ -50,10 +50,9 @@ h2{
 
 .flex-row-space-around{
     padding-bottom: 15px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    justify-content: space-around;
+    display: flex;       
+    flex-direction: column;
+    align-items: center;
 }
 
 .news-card {
@@ -100,30 +99,73 @@ h2{
    padding-top: 15px;
   }
 
+#article-container {
+    margin: 0 auto; 
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    border: 2px solid var(--light-green);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px var(--light-green);
+}
 
+#article-img {
+   width: 98%; 
+   height: auto; 
+   z-index: -99;
+   position: relative;
+   border-bottom: 2px solid var(--light-green);
+   display: block;
+   margin: 0 auto;
+   max-width: 100%;
+   max-height: 300px;
+}
+
+#article-left,
+#article-right {
+    position: absolute; 
+    width: 30px;
+    height: 30px;
+    top: 50%; 
+    transform: translateY(-50%);
+    display: flex;      
+    background-color: white; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);     
+    z-index: 99;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid var(--light-green);    
+}
+
+#article-left {
+    left: -20px;
+}
+
+#article-right {
+    right: -20px; 
+}
+
+#article-text {
+    width: 100%; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    z-index: -99;
+    position: relative;
+}
 
 @media (max-width: 1024px) {
     .news-card {
         width: 30%; 
-    }
-}
-
-@media (max-width: 768px) {
-    .news-card {
-        width: 45%;
-        word-wrap: break-word;
-    }
-}
-
-article {
-        font-size: 1rem;
-        text-align: left; 
-        padding: 10px; 
-    }
-
-    article img {
-        max-width: 100%; 
-        height: auto;
     }
 
     .flex-row-space-around {
@@ -135,4 +177,37 @@ article {
         padding: 10px 0; 
         overflow-x: auto; 
     }
+
+    article img {
+        max-height: 200px;
+    }
+
+    #article-container {
+        width: 80%;
+    }
 }
+@media (max-width: 768px) {
+    .news-card {
+        width: 45%;
+        word-wrap: break-word;
+    }
+
+    .flex-row-space-around {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .news-container {
+        padding: 10px 0; 
+        overflow-x: auto; 
+    }
+
+    article img {
+        max-height: 200px;
+    }
+
+    #article-container {
+        width: 80%;
+    }
+}
+
