@@ -11,20 +11,26 @@ body {
 
 main{   
     padding: 20px;
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
 /* Estilos da seção */
 
-.section {
+#section-cards {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
     flex-wrap: wrap;
     gap: 20px;
     padding: auto;
 }
-
+.card{
+    margin: auto;
+    width: 250px;
+}
 section div {
     background-color: var(--light-green);
     padding: 20px;
