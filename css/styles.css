@@ -112,8 +112,10 @@ footer{
   justify-content: space-between;
   align-items: center;
   padding: 1vw 2vw;
-  max-width: 100vw;
+  width: 100vw;
   background-color: var(--light-green);
+    
+  bottom: 0;
 }
 #footer-logo{
     width: 5vw;
