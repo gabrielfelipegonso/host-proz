@@ -27,7 +27,15 @@ p {
   height: 300px;
   perspective: 1000px;
 }
-
+.content img{
+  z-index: 1000;
+  position: absolute;
+  width: 100px;
+ 
+  border-radius: 10px;
+  top: 0;
+  margin-top: 25px;
+}
 .cards{
    display: flex;
    padding: 25px;
@@ -60,6 +68,7 @@ p {
 
 .content {
   padding: 100px 60px 0px 30px;
+  position: relative;
  }
 
 .content .title {
@@ -68,7 +77,9 @@ p {
   font-weight: 900;
   font-size: 20px;
   position: relative;
-  z-index: 999;
+  margin-left: auto;
+  margin-top: 45px;
+  z-index: 1000;
 }
 
 .content .img {
@@ -108,7 +119,18 @@ p {
   box-shadow: rgba(5, 71, 17, 0.5) 0px 7px 5px -5px;
 }
 
-
+.moldura {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000; /* Cor e espessura da borda */
+  display: inline-block;
+  overflow: hidden; /* Para garantir que a imagem não ultrapasse a moldura */
+}
+.moldura img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Para garantir que a imagem preencha a moldura */
+}
 .bottom .social-buttons-container .social-button .svg {
   width: 15px;
   fill: #00894d;
